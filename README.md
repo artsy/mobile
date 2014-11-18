@@ -1,4 +1,4 @@
-### [Artsy Mobile team issue tracker.]((https://github.com/artsy/mobile/issues)
+### [Artsy Mobile team issue tracker.](https://github.com/artsy/mobile/issues)
 
 Artsy Mobile is @ashfurrow, @1aurabrown and @orta. We get some help occasionally from @dblock. If you're interested in joining, [look here](https://artsy.net/job/mobile-engineer).
 
