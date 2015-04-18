@@ -9,4 +9,6 @@ We revolve around three apps. [Eigen](http://iphone.artsy.net) is the iOS app fo
 
 This repo is for keeping track of issues around the team, and telling people to do stuff etc. Open because [Open by Default](http://code.dblock.org/open-source-is-simply-part-of-my-teams-job-description). Feel free to post issues about and around the artsy mobile team here. It goes straight to our slack room, so ideally, include a GIF.
 
-![Giphy](http://media0.giphy.com/media/4shDCBDIxSPW8/giphy.gif)
+<h3 align="center">
+  <img src="http://media0.giphy.com/media/4shDCBDIxSPW8/giphy.gif" alt="Giphy" />
+</h3>
