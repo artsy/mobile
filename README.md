@@ -1,6 +1,6 @@
 ### [Artsy Mobile team issue tracker.](https://github.com/artsy/mobile/issues)
 
-![photo on 11-18-14 at 12 38 pm 2](team.png)
+![photo on 11-18-14 at 12 38 pm 2](team.jpg)
 
 Artsy Mobile is [@alloy](https://github.com/alloy), [@ashfurrow](https://github.com/ashfurrow), [@katarinabatina](https://github.com/katarinabatina), [@1aurabrown](https://github.com/1aurabrown), [@orta](https://github.com/orta), and [@sarahscott](https://github.com/sarahscott). We get some help occasionally from [@dblock](https://github.com/dblock). If you're interested in joining, [look here](https://artsy.net/job/mobile-engineer).
 
