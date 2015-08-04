@@ -1,42 +1,30 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mobile by artsy</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Mobile</h1>
-        <p>Mobile Team TODO</p>
+<div class="home">
 
-        <p class="view"><a href="https://github.com/artsy/mobile">View the Project on GitHub <small>artsy/mobile</small></a></p>
+  <p>This is not the Artsy Blog, where you can find all sorts <a href="/">of interesting technicalities</a>. Infact, this blog is kind of boring in comparison. It's a dev log of what we've been up to each week. This is an experiment for a few weeks, so consider it non-canon for the moment.</p>
+  <hr/>
 
+{% for post in site.posts %}
+<article class="post grid">
+  <header class="unit one-quarter">
+    {% assign a = site.authors[post.author] %}
+    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  </header>
+  <section class="unit three-quarters">
+    {% if post.content contains '<!-- more -->' %}
+        {{ post.content | split:'<!-- more -->' | first }}
+        <p><a href="{{ post.url }}">Read on →</a></p>
+    {% else %}
+        {{ post.content }}
+    {% endif %}
+  </section>
+</article>
+{% endfor %}
 
-        <ul>
-          <li><a href="https://github.com/artsy/mobile/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/artsy/mobile/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/artsy/mobile">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/artsy">artsy</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+  <hr/>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

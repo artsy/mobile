@@ -1,0 +1,18 @@
+# Site settings
+title: Artsy Mobile Team Blog
+email: mobile@artsymail.com
+description: > 
+  The Artsy Mobile Team's Dev blog.
+  
+baseurl: "/mobile/" 
+url: "http://artsy.github.io" # the base hostname & protocol for your site
+twitter_username: ArtsyOpenSource
+github_username:  Artsy
+
+exclude: ['Gemfile*', "README.md"]
+markdown: kramdown
+authors:
+  orta:
+    name: Orta Therox
+    twitter: orta
+    gravatar: f116cb3be23153ec08b94e8bd4dbcfeb
