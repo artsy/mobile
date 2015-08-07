@@ -9,7 +9,7 @@ bundle install
 
 Running it:
 ```
-bundle exec jekyll serve
+bundle exec rake serve
 ```
 
 Making a new post:
