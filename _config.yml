@@ -3,7 +3,7 @@ title: Artsy Mobile Team Blog
 email: mobile@artsymail.com
 description: > 
   The Artsy Mobile Team's Dev blog.
-  
+excerpt_separator: <!-- more -->
 baseurl: "/mobile/" 
 permalink: /:title
 url: "http://artsy.github.io" # the base hostname & protocol for your site
