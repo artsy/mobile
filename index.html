@@ -14,8 +14,8 @@ layout: default
     <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
   </header>
   <section class="unit three-quarters">
-    {% if post.content contains '<!-- more -->' %}
-        {{ post.content | split:'<!-- more -->' | first }}
+    {% if post.excerpt %}
+        {{ post.excerpt }}
         <p><a href="{{ post.url | prepend: site.baseurl }}">Read on →</a></p>
     {% else %}
         {{ post.content }}
