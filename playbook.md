@@ -15,7 +15,22 @@ We collectively created an article for the magazine [objc.io on Artsy Mobiles's 
 
 Current members of the Mobile Practice can be found on the [Artsy/Mobile](https://github.com/artsy.mobile) index of our GitHub repo.
 
+### Onboarding
+
+Most of the general Artsy Developer information for onboarding is covered in [artsy/potential](https://github.com/artsy/potential#onboarding). Further below we have a section on code-signing.
+
+### My first week
+
+Ideally in your first week you should:
+
+* Take some of our code, and turn it into a public pod. If you've never created a CocoaPod before.
+* Squash a few easy bugs, and cover your tracks with tests for regressions.
+* Start thinking about [blog posts](https://github.com/artsy/mobile/labels/Blog%20Post).
+* Have installed and ran some of the mobile projects you're not actively working on for context.
+
 ### Logistics
+
+* The whole dev team does a big standup on Monday 2pm NYC time.
 
 * Bi-weekly stand-up on Tuesday / Thursday 11:00 (NYC time)
     * What are you working on or need help with?
@@ -33,9 +48,14 @@ Current members of the Mobile Practice can be found on the [Artsy/Mobile](https:
 * Each app has its own focused channel in Slack [#eigen](https://artsy.slack.com/messages/eigen/), [#energy](https://artsy.slack.com/messages/energy) and [#eidolon](https://artsy.slack.com/messages/eidolon/).
 * Each app has a user facing slack, which is for bug reports / product discussion:  [#artsy-ios](https://artsy.slack.com/messages/artsy-ios/), [#folio](https://artsy.slack.com/messages/folio) and [#auctions](https://artsy.slack.com/messages/auctions/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
-* Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys.
+
+### Code Signing
+
+Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys.
 
   For more information related to choosing the right certificate and profile for development builds (that include Push Notification support), see [this document](https://github.com/artsy/eigen/blob/master/docs/push_notifications.md). In case you need to manually install the right certificate, it is called “Eigen Developer Identity” in the Engineering 1Password vault.
+
+  You should check the documentation folder for the app you're looking at for more specific information.
 
 ### Our Apps
 
@@ -45,6 +65,10 @@ Current members of the Mobile Practice can be found on the [Artsy/Mobile](https:
 * [Emergence](https://github.com/artsy/emergence): tvOS App for Browsing Shows.
 
 * See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Practice libraries.
+
+### GitHub
+
+We use GitHub, tada.  Because we run OSS then we use GitHub more like how [GitHub](https://speakerdeck.com/holman/how-github-uses-github-to-build-github) does than [Artsy](http://artsy.github.io/blog/2012/01/29/how-art-dot-sy-uses-github-to-build-art-dot-sy/). We use branches on the app's main repos. All of our apps have convenient `make` commands to simplify name prefixes for branches. E.g. `make push` would take the branch `new_vir` and push it as `orta-new_vir` making it obvious who is the owner. Check the `Makefile` in the repo to see other commands like: `make fpush`, `make pr` etc.
 
 ### Our Key Technologies
 
