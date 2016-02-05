@@ -96,7 +96,7 @@ We test our apps to ensure that our behavior is what we expect. We use a collect
 
 #### Eidolon
 
-* **Essentials:** Swift, [ReactiveCocoa](http://reactivecocoa.io), [Moya](https://github.com/ashfurrow/moya/), Storyboards
+* **Essentials:** Swift, [RxSwift](http://rxswift.org), [Moya](https://github.com/ashfurrow/moya/), Storyboards
 
 #### Emergence
 
