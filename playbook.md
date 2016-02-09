@@ -49,6 +49,10 @@ Ideally in your first week you should:
 * Each app has a user facing slack, which is for bug reports / product discussion:  [#artsy-ios](https://artsy.slack.com/messages/artsy-ios/), [#folio](https://artsy.slack.com/messages/folio) and [#auctions](https://artsy.slack.com/messages/auctions/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
 
+### Getting started
+
+Chances are there's a `make artsy`, and otherwise follow the README for your project of choice. Some pods (like our fonts) will only install if you're an Artsy team member though, and hence you'd want to set an environment variable of `ARTSY_STAFF_MEMBER` to `true`. 
+
 ### Code Signing
 
 Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys.
