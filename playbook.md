@@ -53,6 +53,8 @@ Ideally in your first week you should:
 
 Chances are there's a `make artsy`, and otherwise follow the README for your project of choice. Some pods (like our fonts) will only install if you're an Artsy team member though, and hence you'd want to set an environment variable of `ARTSY_STAFF_MEMBER` to `true`. 
 
+If you use Xcode, we strongly recommend installing the plugins [Snapshots](https://github.com/orta/Snapshots) and [You Can Do It](https://github.com/orta/You-Can-Do-It). [Alcatraz](http://alcatraz.io) is generally the go-to here.
+
 ### Code Signing
 
 Certificates and keys for signing apps for development/distribution are in the Engineering 1Password vault. The certs/keys are stored as a developer identity that can be imported into Xcode; the entry is named "Apple iOS Mobile Developer Identity". Make sure to install from there instead of letting Xcode revoke the existing keys.
