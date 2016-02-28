@@ -45,7 +45,7 @@ Ideally in your first week you should:
 
 * Team-wide issues and TODOs can be found in [Artsy/Mobile](https://github.com/artsy/mobile/).
 * The Mobile team specific [calendar](https://www.google.com/calendar/embed?src=artsymail.com_bke4sctkn8o072rjgtcsrrun3s%40group.calendar.google.com&ctz=America/New_York) is used for Out Of Office / Events.
-* Chat in [#mobile-banter](https://artsy.slack.com/messages/mobile/)
+* Chat in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/)
 * Each app has its own focused channel in Slack - Eigen: [#gmv-ios-dev](https://artsy.slack.com/messages/gmv-ios-dev/), Energy: [#energy](https://artsy.slack.com/messages/energy) and Eidolon:  [#auctions-dev](https://artsy.slack.com/messages/auctions-dev/).
 * Each app has a user facing slack, which is for bug reports / product discussion:  [#gmv-ios](https://artsy.slack.com/messages/gmv-ios/), [#folio](https://artsy.slack.com/messages/folio) and [#auctions](https://artsy.slack.com/messages/auctions/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
