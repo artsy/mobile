@@ -37,6 +37,12 @@ Ideally in your first week you should:
     * Explain any new features or requests.
     * Orta fills in any "team"-y things
 
+* Daily GeekBot stand-up per project
+    * What have you been up to, what are you planning to do?
+
+* Bi-weekly FeelsBot stand-up (Mon/Thr) posted in [#mobile-banter](https://artsy.slack.com/messages/mobile-banter/)
+    * Done anything fun? How are you doing today? Feeling ok? 
+
 * Work is done through GitHub issues within sprint cycles.
     * Sprint Cycles timing varies between projects.
     * Eigen has a 6 week sprint cycle.
