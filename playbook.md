@@ -32,26 +32,27 @@ Ideally in your first week you should:
 
 * The whole dev team does a big standup on Monday 2pm NYC time.
 
-* Bi-weekly stand-up on Tuesday / Thursday 11:00 (NYC time)
+* Weekly stand-up on Tuesday 11:00 (NYC time)
     * What are you working on or need help with?
     * Explain any new features or requests.
     * Orta fills in any "team"-y things
 
 * Work is done through GitHub issues within sprint cycles.
     * Sprint Cycles timing varies between projects.
+    * Eigen has a 6 week sprint cycle.
     * Milestones, and features are discussed and setup at a pre-sprint meeting.
     * Issues are created and added to the sprint milestone.
 
 * Team-wide issues and TODOs can be found in [Artsy/Mobile](https://github.com/artsy/mobile/).
 * The Mobile team specific [calendar](https://www.google.com/calendar/embed?src=artsymail.com_bke4sctkn8o072rjgtcsrrun3s%40group.calendar.google.com&ctz=America/New_York) is used for Out Of Office / Events.
-* Chat in [#mobile](https://artsy.slack.com/messages/mobile/)
-* Each app has its own focused channel in Slack [#eigen](https://artsy.slack.com/messages/eigen/), [#energy](https://artsy.slack.com/messages/energy) and [#eidolon](https://artsy.slack.com/messages/eidolon/).
-* Each app has a user facing slack, which is for bug reports / product discussion:  [#artsy-ios](https://artsy.slack.com/messages/artsy-ios/), [#folio](https://artsy.slack.com/messages/folio) and [#auctions](https://artsy.slack.com/messages/auctions/).
+* Chat in [#mobile-banter](https://artsy.slack.com/messages/mobile/)
+* Each app has its own focused channel in Slack Eigen: [#gmv-ios-dev](https://artsy.slack.com/messages/gmv-ios-dev/), Energy: [#energy](https://artsy.slack.com/messages/energy) and Eidolon:  [#auctions-dev](https://artsy.slack.com/messages/auctions-dev/).
+* Each app has a user facing slack, which is for bug reports / product discussion:  [#gmv-ios](https://artsy.slack.com/messages/gmv-ios/), [#folio](https://artsy.slack.com/messages/folio) and [#auctions](https://artsy.slack.com/messages/auctions/).
 * GitHub notifications, etc. in [#mobile-notifications](https://artsy.slack.com/messages/mobile-notifications/).
 
 ### Getting started
 
-Chances are there's a `make artsy`, and otherwise follow the README for your project of choice. Some pods (like our fonts) will only install if you're an Artsy team member though, and hence you'd want to set an environment variable of `ARTSY_STAFF_MEMBER` to `true`. 
+Chances are there's a `make artsy`, and otherwise follow the README for your project of choice. Some pods (like our fonts) will only install if you're an Artsy team member though, and hence you'd want to set an environment variable of `ARTSY_STAFF_MEMBER` to `true`.
 
 If you use Xcode, we strongly recommend installing the plugins [Snapshots](https://github.com/orta/Snapshots) and [You Can Do It](https://github.com/orta/You-Can-Do-It). [Alcatraz](http://alcatraz.io) is generally the go-to here.
 
@@ -70,6 +71,10 @@ Certificates and keys for signing apps for development/distribution are in the E
 * [Eidolon](https://github.com/artsy/eidolon): Kiosk App for Auctions.
 * [Emergence](https://github.com/artsy/emergence): tvOS App for Browsing Shows.
 
+Other mobile projects:
+* [Emission](https://github.com/artsy/emission): A React Native Components Library.
+* [Epsilon](https://github.com/orta/epsilon): An iPad app for running a web-browser in a fair.
+
 * See the [engineering projects map](https://trello.com/b/VLlTIM7l/artsy-engineering-projects-map) for a comprehensive list of Mobile Practice libraries.
 
 ### GitHub
@@ -80,7 +85,7 @@ We use GitHub, tada.  Because we run OSS then we use GitHub more like how [GitHu
 
 #### Objective-C
 
-A lot of our apps pre-date the swift language, and re-writes come at a big cost. Objective-C is still a fine language, so a lot of development is still done in it.
+A lot of our apps pre-date the swift language, and re-writes come at a big cost. Objective-C is still a fine language, so a lot of development is still done in it. All projects now do support Swift, so additional components can be written in Swift if preferred.
 
 #### CocoaPods + Bundler
 
