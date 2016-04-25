@@ -13,11 +13,11 @@ We collectively created an article for the magazine [objc.io on Artsy Mobiles's 
 
 ### Who is on the Mobile Practice?
 
-Current members of the Mobile Practice can be found on the [Artsy/Mobile](https://github.com/artsy.mobile) index of our GitHub repo.
+Current members of the Mobile Practice can be found on the [Artsy/Mobile](https://github.com/artsy/mobile) index of our GitHub repo.
 
 ### Onboarding
 
-Most of the general Artsy Developer information for onboarding is covered in [artsy/potential](https://github.com/artsy/potential#onboarding). Further below we have a section on code-signing.
+Most of the general Artsy Developer information for onboarding is covered in [artsy/potential](https://github.com/artsy/potential#onboarding) (note to open source community: this is a private repo). Further below we have a section on code-signing.
 
 ### My first week
 
