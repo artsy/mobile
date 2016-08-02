@@ -1,4 +1,4 @@
-### [Artsy Mobile team issue tracker.](https://github.com/artsy/mobile/issues)
+### [Artsy Mobile team issue tracker](https://github.com/artsy/mobile/issues) :ok_hand:
 
 ![](team.jpg)
 
