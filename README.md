@@ -1,3 +1,5 @@
+**Attention**: The Artsy Mobile team has been [dissolved](http://artsy.github.io/blog/2016/03/28/artsy-engineering-organization-stack/) into the rest of Artsy Engineering, so this repo is no longer in use. You probably want to check out the Artsy Engineering [meta](https://github.com/artsy/meta) repo instead.
+
 ### [Artsy Mobile team issue tracker](https://github.com/artsy/mobile/issues) :ok_hand:
 
 ![](team.jpg)
